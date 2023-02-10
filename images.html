@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- SETTING VIEWPORT WIDTH -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- LINK STYLE SHEET -->
+        <link rel="stylesheet" href="style.css" />
+        <title>Image search</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <div class="header">
+            <div class="header-links">
+                <a href="index.html">Google Search</a>
+                <a href="advanced.html">Google Advanced Search</a>
+            </div>
+        </div>
+        <!-- HEADER END -->
+        <!-- SEARCH START -->
+        <div class="search">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+            <div class="subtext">
+                <span>images</span>
+            </div>
+            <form action="https://www.google.com/search" method="get">
+                <div class="search-field">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 2.75a7.25 7.25 0 015.63 11.82l4.9 4.9a.75.75 0 01-.98 1.13l-.08-.07-4.9-4.9A7.25 7.25 0 1110 2.75zm0 1.5a5.75 5.75 0 100 11.5 5.75 5.75 0 000-11.5z"></path>
+                    </svg>
+                    <input type="text" name="q">
+                </div>
+                <input type="hidden" name="tbm" value="isch" />
+            </form>
+        </div>
+        <!-- SEARCH END -->
+    </body>
+</html>
